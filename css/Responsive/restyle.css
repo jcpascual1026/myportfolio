@@ -1,0 +1,198 @@
+
+
+@media (max-width: 1024px) {
+
+  #Home{
+    margin: 10vh auto;
+  }
+
+  .Main {
+    height: auto;   
+  }
+
+  .main-content h1 {
+    font-size: 3.5rem;
+  }
+
+  .main-content p {
+    font-size: 0.9rem;
+  }
+  
+  }
+  
+  @media (max-width: 912px) {
+
+    #Home{
+      margin: 10vh auto;
+    }
+
+    #AboutMe{
+      margin: 0vh auto;
+  }
+
+  .main-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .Main {
+    height: auto;   
+  }
+  
+
+    .projects{
+        width: 100%;
+        padding: 5vh 5vh;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .projects img{
+        width: 70%;
+        height: auto;
+        max-width: 70%;
+      }
+    
+      .trivia{
+        display: flex;
+        margin: auto 5vh;
+        padding-bottom: 5vh;
+      }
+      
+      .triviaword h1 {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .Hobbies li i {
+      font-size: 1.2rem;
+    }
+    
+    .Hobbies li {
+      list-style-type: none;
+      padding: 0.7rem 1rem;
+    }
+  }
+
+  @media (max-width: 800px) {
+
+    #Home{
+      margin: 10vh auto;
+    }
+
+    #AboutMe{
+      margin: 0vh auto;
+  }
+
+  .main-content h1 {
+    font-size: 2.5rem;
+  }
+
+    nav ul li {
+      display: none;
+    }
+
+    .main-content h1 {
+      font-size: 2.7rem;
+      word-spacing: 0.2rem;
+    }
+  
+    .main-content p {
+      font-size: 0.9rem;
+    }
+
+    .Skillscontainer{
+      display: inline;
+  }
+  .container {
+    margin: 5vh auto;
+  }
+
+  .triviaword h1 {
+    margin: 0;
+    font-size: 0.8rem;
+}
+  }
+  
+  @media (max-width: 540px) {
+
+    #Home{
+      margin: 10vh auto;
+    }
+
+    .Main {
+      display: inline;
+    }
+
+    .Main img {
+      margin: 0 35%;
+      width: 30%;
+      height: auto;
+      max-width: 35%;
+    }
+
+    .main-content h1 {
+      font-size: 1.4rem;
+    }
+
+    .main-content p {
+      font-size: 0.6rem;
+    }
+
+    .projects h2{
+      font-size: 1.4rem;
+    }
+
+    .projects img{
+      margin: 5vh auto;
+    }
+
+    .projectsexpleft p .projectsexpright p{
+      margin: 0 auto;
+      font-size: 1rem;
+      margin: 2vh auto;
+    }
+  
+    .projectsexpleft h1 .projectsexpright h1{
+      font-size: 1.5rem;
+      margin: 0 auto;
+      margin: 2vh 0 0 0;
+    }
+  
+    .projectsOne{
+      display: inline;
+    }
+  
+    .projectsTwo{
+      display: inline;
+    }
+  
+    .projectsThree{
+      display: inline;
+    }
+
+    .projectsThree h1{
+      margin-top: 5vh;
+    }
+
+    #Trivia {
+      display: inline;
+  }
+
+    .Trivia {
+      display: inline;
+  }
+
+  .triviaword h1 {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.Hobbies li i {
+  font-size: 1rem;
+}
+
+.Hobbies li {
+  list-style-type: none;
+  padding: 1rem 1rem;
+}
+  }
